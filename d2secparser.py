@@ -124,6 +124,7 @@ def count_d2sec_table():
     if count:
         disconnect_database()
         return count
+    disconnect_database()
     return 0
 
 
